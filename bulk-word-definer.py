@@ -3,7 +3,6 @@ import lxml
 from lxml import html
 import requests
 import random
-
 global driver
 global soup
 spanresults = []
@@ -13,7 +12,7 @@ anyelementresults = []
 
 translationlist = []
 
-print('Welcome to bulk-translator. This application finds definitions of a list of words and provides it to you!')
+print('Welcome to bulk-word-definer. This application finds definitions of a list of words and provides it to you!')
 filename = input('Enter a unique name for the session: ')
 print('For one sentence definition press enter (recommended). Type ! if you want definitions with example sentences.')
 sessionmode = input('')
@@ -29,7 +28,7 @@ for line in f:
     words.append(linefx)
     #add scrapeurl here. line18
     linefx = linefx.replace(' ','20%')
-    scrapeurl =  'https://www.google.com/search?q=' + linefx + '%20definition'
+    scrapeurl =  'http://www.google.com/search?q=' + linefx + '%20definition'
     spaninput =  ''
     divinput =  'BNeawe s3v9rd AP7Wnd'
     classinput =  ''
