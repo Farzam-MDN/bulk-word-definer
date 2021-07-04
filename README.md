@@ -1,7 +1,6 @@
 # bulk-word-definer
 
 
-![bulk-word-definer Logo](https://i.imgur.com/xNsnZlS.png)
 
 
 bulk-word-definer is an application for defining multiple words at once! You only need to provide the application a list of words. Consequently, the application will define each word and provide the results in a text file.
